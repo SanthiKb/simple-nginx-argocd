@@ -4,7 +4,7 @@ metadata:
   name: nginx-service
   namespace: default
 spec:
-  type: NodePort      # Add this line
+  type: NodePort    
   ports:
     - port: 80
       targetPort: 80
